@@ -1,0 +1,23 @@
+table{
+    color:black;
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: #c4dcf3;
+    height: 200px;
+    width: 270px;
+}
+
+tr:first-child{
+    background-color: #427fef;
+    color: white;
+}
+
+tr:nth-child(2n+2){
+    background-color: rgb(178, 198, 192);
+}
+
+tr:last-child{
+    background-color: #427fef;
+    color: white;
+    text-align: left;
+}
